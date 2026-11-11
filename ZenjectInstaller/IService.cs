@@ -1,9 +1,7 @@
-﻿using ViraGames.Infrastructure;
-
-namespace ZenjectInstaller
+﻿namespace ZenjectInstaller
 {
-    public interface IService : IFromFacade
+    /// <summary>Marker for types collected by the Service searcher and installed by BootInstaller.</summary>
+    public interface IService
     {
-        
     }
 }

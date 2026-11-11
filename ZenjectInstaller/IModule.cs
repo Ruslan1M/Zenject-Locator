@@ -1,9 +1,7 @@
-﻿using ViraGames.Infrastructure;
-
-namespace ZenjectInstaller
+﻿namespace ZenjectInstaller
 {
-    public interface IModule : IFromFacade
+    /// <summary>Marker for types collected by the Module searcher and installed by BootInstaller.</summary>
+    public interface IModule
     {
-        
     }
 }
